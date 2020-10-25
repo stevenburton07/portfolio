@@ -11,10 +11,25 @@ nav {
     height: 64px;
     background-color: #342BAD;
 }
-
-.logo {
+  
+  .logo {
     display: flex;
-    position:absolute;
+    position: absolute;
     left: 1rem;
   }
   
+  #navlist {
+      display: flex;
+      list-style: none;
+  }
+  
+  #navlist a {
+      font-size: 1.75rem;
+      padding: 1rem;
+      text-decoration: none;
+      color: #f0f0f0;
+  }
+  
+  #navlist a:hover {
+      background:  #AD961A;
+    }
