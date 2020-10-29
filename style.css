@@ -37,7 +37,7 @@ left: 1rem;
 }
 /*navigation end*/
 
-/*welcome*/
+/*introduction start*/
 #welcome {
     width: 100%;
     height: 100vh;
@@ -51,16 +51,14 @@ left: 1rem;
     background-position: center;
     background-size: cover;
 }
-/*welcome end*/
 
-/*introduction*/
 .profile-picture {
     border: 5px solid #012D5F;
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 #introduction {
@@ -70,6 +68,27 @@ left: 1rem;
     padding: 50px;
 }
 /*introduction ends*/
+
+/*skills start*/
+#skills {
+    background-color: #ececec;
+    border: 4px dashed #012D5F;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#skills h1 {
+    text-align: center;
+}
+
+#skills li {
+    font-size: 1.5em;
+    padding: 10px;
+}
+/*skills end*/
 
 /*footer start*/
 footer {
